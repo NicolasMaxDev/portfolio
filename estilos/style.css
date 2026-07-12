@@ -30,6 +30,16 @@ body {
   color: var(--texto);
 }
 
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #cd461d;
+  --fundo-card: #444444;
+  transition-duration: .5s;
+}
+
 header {
   background-color: var(--destaque);
   color: var(--texto);
